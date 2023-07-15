@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Front Page</title>
+  <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+</head>
+<body>
+  <div class="container">
+    <img src="{% static 'img/logo.png' %}" alt="Logo" class="logo">
+    <button class="centered-button">View Dashboard</button>
+    <button class="centered-button">Settings</button>
+  </div>
+</body>
+</html>
